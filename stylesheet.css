@@ -1,0 +1,75 @@
+body {
+  background-image: url("background.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.about {
+  float: left;
+  color: white;
+}
+.about-link {
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px 10px;
+  margin: 5px;
+}
+.about-link:hover {
+  color: rgba(124, 121, 121, 0.5);
+}
+.about-link:visited {
+  color: white;
+}
+.return-link {
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px 10px;
+  margin: 5px;
+}
+.return-link:hover {
+  color: rgba(124, 121, 121, 0.5);
+}
+.return-link:visited {
+  color: white;
+}
+.body-container {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  background-color: rgba(124, 121, 121, 0.5);
+  padding: 20px;
+  width: 50%;
+  height: 85vh;
+}
+.text-body {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  color: rgb(243, 237, 237);
+}
+.header {
+  font-family: "Indie Flower", cursive;
+  font-style: italic;
+  color: rgb(231, 201, 201);
+}
+.signature {
+  font-family: "Indie Flower", cursive;
+  font-style: italic;
+  font-size: 20px;
+}
+.song {
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  color: white;
+  text-align: center;
+}
+.song-link {
+  color: white;
+}
